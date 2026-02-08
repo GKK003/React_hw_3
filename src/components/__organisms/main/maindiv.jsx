@@ -3,12 +3,14 @@ import Boxes from "../../__atoms/boxes/boxes";
 import BoxDiv from "../../__atoms/white/white";
 
 function Main() {
-    return <>
-    <div className="main_box">
+    return < >
+    <div className="main">
         <BlueDiv />
-        <BoxDiv />
-        
+    
+     <BoxDiv />
+
     </div>
+        
     </>
 }
 
